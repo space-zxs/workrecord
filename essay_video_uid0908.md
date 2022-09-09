@@ -2,6 +2,11 @@
 
 ## 0908-2days
 
+***
+**ctr一天的变化**
+
+![image](https://user-images.githubusercontent.com/77714764/189298922-2f365cdf-018c-4f70-aa1c-4505fedb8f9a.png)
+
 ### 时间: 2022-09-08 09:31:38,push_id: 220908-01
 
 - 内容： 图文和视频
