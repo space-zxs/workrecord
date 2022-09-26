@@ -29,3 +29,11 @@ live_icf_recall,static_icf_recall
 disk_list.h:
 
 DoubleBuffer
+
+### 编译执行
+
+make / make package
+
+transfer_pd2.py 传输协议
+
+返回几种召回的壁纸id列表，preview、topctr、usetop
