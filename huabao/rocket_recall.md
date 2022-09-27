@@ -36,4 +36,14 @@ make / make package
 
 transfer_pd2.py 传输协议
 
-返回几种召回的壁纸id列表，preview、topctr、usetop
+返回几种召回的壁纸id列表，preview、tag_profile、usetop 
+
+## 两个工具类
+
+- 取list中数据（值）
+- 取dict中数据（键值对）
+
+对取到的数据列表进行消重。
+
+
+
