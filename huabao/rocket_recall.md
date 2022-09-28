@@ -41,10 +41,12 @@ transfer_pd2.py 传输协议
 
 返回几种召回的壁纸id列表，preview、tag_profile、usetop 
 
-## 两个工具类
+### 两个工具类
 
 - 取list中数据（值）
 - 取dict中数据（键值对）
+
+线下hubao_offline 提供数据
 
 对取到的数据列表进行消重。然后在task中消重存放到payload中
 
@@ -62,5 +64,7 @@ list 直接全部取出
 icf_dict 
 
 数据是 新闻id 和 dupid 拼接
+
+
 
 
