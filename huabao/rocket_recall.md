@@ -65,6 +65,6 @@ icf_dict
 
 数据是 新闻id 和 dupid 拼接
 
-
+request_id
 
 
