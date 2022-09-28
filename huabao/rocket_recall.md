@@ -1,6 +1,9 @@
 # pictorial
 ***
 ## rocket_recall 召回服务
+***
+### 执行流程
+start_plugin->parse_plugin->topctr_plugin/profile_plugin/icf_plugin->end_plugin
 
 高热召回、cf召回
 
@@ -43,7 +46,21 @@ transfer_pd2.py 传输协议
 - 取list中数据（值）
 - 取dict中数据（键值对）
 
-对取到的数据列表进行消重。
+对取到的数据列表进行消重。然后在task中消重存放到payload中
 
+online_api_test()
+
+http://papi.look.360.cn/mlist?crec=0&u=mytestuid_1232134e23423&hsid=lzs202209091628&sqid=&sign=360_190fb446&version=1.0&market=pc_def&device=2&v=1&sv=7&c=hb2&net=5&ufrom=1&n=18&scene=2&sub_scene=1&refer_scene=0&refer_subscene=0&f=json&where=list&action=1&rec_v=2
+
+服务打包成的api,测试服务是否返回正常数据
+
+static_manual_dict 
+
+如何保证用户连续数据的消重
+
+list 直接全部取出
+icf_dict 
+
+数据是 新闻id 和 dupid 拼接
 
 
