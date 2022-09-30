@@ -65,6 +65,6 @@ icf_dict
 
 数据是 新闻id 和 dupid 拼接
 
-request_id
+request_id 用户一次完整的请求，打开画报，关闭画报
 
 
