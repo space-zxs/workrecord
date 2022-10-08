@@ -6,6 +6,17 @@
 
 为什么召回里面解析了用户的历史点击和展现，rank里面还要重新解析
 
+**FM 的解释**
+
+一般的线性模型：
+
+![image](https://user-images.githubusercontent.com/77714764/194702171-9ad0948e-4d0f-4399-a795-85f76e515bd5.png)
+
+线性模型可以进行预测，但是由于one_hot 编码带来的巨大维度、以及无法表示特征之间的相互关系，fm模型在线性模型上增添了一项：
+
+![image](https://user-images.githubusercontent.com/77714764/194702292-c8cf4db5-563e-4d0b-a39c-57c2ddfa6b22.png)
+
+
 **FM 的三个优点**
 
 - 可以在非常稀疏的数据中进行合理的参数估计
