@@ -31,6 +31,8 @@ https://arxiv.org/abs/1702.08734
 
 ### train_rank_model
 
+通过make_train_log.py，读取数据，组合特征，生成train/test log文件
+
 通过train_model.py 拼接路径调用 bin中的命令执行data中的数据文件
 
 ### problem 
