@@ -39,6 +39,6 @@ url.pemb.scr 文件的生成
 
 fm.model 数据的生成
 
-fm.model 中用'/1'分割，实际上没有
+fm.model 中用'/1'分割
 
 
