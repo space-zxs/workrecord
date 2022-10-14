@@ -39,6 +39,12 @@ https://arxiv.org/abs/1702.08734
 
 url.pemb.scr 文件的生成 （可能是用户embedding的均值）
 
+    如何表达user embedding 向量呢，
+
+    有两种想法：1.先进行item-user倒排索引，把user作为单词，通过item2vec的方法计算user的向量，这样对于新的user id或者未参与训练的userid，如何获取embedding向量呢
+
+    2. 通过user-item矩阵，计算item向量，然后如何表示user向量呢，如果把item 向量拼接起来，特征维度会比较多，如果用多个item向量mean的方式，这个user embedding 特征的意义是什么
+
 fm.model 数据的生成
 
 fm.model 中用'/1'分割
