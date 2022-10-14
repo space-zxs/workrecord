@@ -37,7 +37,7 @@ https://arxiv.org/abs/1702.08734
 
 ### problem 
 
-url.pemb.scr 文件的生成
+url.pemb.scr 文件的生成 （可能是用户embedding的均值）
 
 fm.model 数据的生成
 
