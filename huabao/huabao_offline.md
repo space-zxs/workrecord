@@ -37,7 +37,7 @@ https://arxiv.org/abs/1702.08734
 
 ### problem 
 
-url.pemb.scr 文件的生成 （可能是用户embedding的均值）
+url.pemb.scr 文件的生成 （可能是用户embedding的均值） embedding 通过sent2vec 完成
 
     如何表达user embedding 向量呢，
 
