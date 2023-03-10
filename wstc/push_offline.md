@@ -6,6 +6,10 @@
     save_detail('wstc_xxl_top_news.t', md5_ytag_dict)
     save_detail('wstc_xxl_top_news.v', md5_vctag_dict)
     到redis
+    
+## push_audit
+
+使用了 select 的输出的 两个redis 的数据
 
 ## update_safe_qid.py
 
