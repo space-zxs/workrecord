@@ -17,6 +17,7 @@
 
 ## news_sync.py
 
+从 hx redis 中获得的数据 加入到wstc 和 push redis中
 得到审核通过的内容： news_safe_wstc、video_safe_wstc  
 
 video_safe_wstc 由不同的类型 比如娱乐 国际等新闻，这些新闻数据 存储在redis 的不同的 队列中
