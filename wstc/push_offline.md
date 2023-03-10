@@ -2,11 +2,10 @@
 
 ## select_top.py 
 从输入中解析MD5 md5, pv, clk, ctr, s 等信息 分类存储
-
-从redis 中选择 图文和视频各自的新闻
+保存 图文和视频各自的新闻
     save_detail('wstc_xxl_top_news.t', md5_ytag_dict)
     save_detail('wstc_xxl_top_news.v', md5_vctag_dict)
-    出来
+    到redis
 
 ## update_safe_qid.py
 
