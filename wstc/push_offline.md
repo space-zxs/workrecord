@@ -20,7 +20,7 @@ video_safe_wstc 由不同的类型 比如娱乐 国际等新闻，这些新闻�
 最后按时间对 video_safe_wstc 进行排序
 
 ## load_yunying
-
+此处是从外部get的新闻的输入处
 wstc_conn.set('default_url_wstc', default_url_wstc)
  wstc_conn.set('template_url_wstc', template_url_wstc)
  
