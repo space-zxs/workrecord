@@ -31,7 +31,8 @@ wstc_conn.set('default_url_wstc', default_url_wstc)
 ## make_random.py
 
 生成random_list、default_list, defaul_list 是编辑配置的兜底数据  random_list 使用审核通过的内容
-random 中的数据 来自 push_conn 也就是审核过的内容
+random 中的数据 来自 push_conn 也就是审核过的内容 来news_sync
+
 
 ## hctr.py
 
